@@ -11,12 +11,22 @@
     <title>Title</title>
 </head>
 <body>
-<div class="d-flex justify-content-between" style="width: 50%; margin-top: 5%;">
+
+<div class="container d-flex justify-content-center">
+    <h2 style="font-weight: bolder; margin-top: 5%; border-bottom: 1px solid red;">Movie Title</h2>
+</div>
+<div class="container d-flex" style="width: 80%; margin-top: 5%;">
 
     <div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Add To Playlist
-        </button>
+
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Add To Playlist
+            </button>
+            <button type="button" class="btn btn-primary">Play</button>
+            <button type="button" class="btn btn-primary">Resume</button>
+            <button type="button" class="btn btn-primary">Add To List</button>
+        </div>
 
         <!-- The Modal -->
         <div class="modal" id="myModal">
@@ -47,7 +57,8 @@
         </div>
 
     </div>
-    <img src="smiley.gif" class="rounded" alt="img">
+    <img src="https://images.app.goo.gl/w3VNK31RjuzvjJ8x7" class="rounded" alt="img" style="margin-left: 25%;">
+<!--    for future movie title-->
 
 </div>
 </body>
