@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes_index);
 app.use('/playlist', routes_playlist);
 app.use('/home', routes_home);
-app.use('/titlepage', routes_index);
+app.use('/titlepage', routes_titlepage);
 
 app.use(express.urlencoded());
 

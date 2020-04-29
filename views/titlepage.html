@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<div class="d-flex justify-content-between" style="width: 50%; margin-top: 5%;">
 
+    <div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Add To Playlist
+        </button>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Select A Playlist</h4>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <ul class="list-group ">
+                            <li class="list-group-item"><input type="radio" name="playlist">&nbsp;Comedy </li>
+                            <li class="list-group-item"><input type="radio" name="playlist">&nbsp;Date Night Movies</li>
+                            <li class="list-group-item"><input type="radio" name="playlist">&nbsp;For Kids</li>
+                        </ul>                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Add</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <img src="smiley.gif" class="rounded" alt="img">
+
+</div>
 </body>
 </html>
