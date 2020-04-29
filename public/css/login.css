@@ -1,0 +1,19 @@
+body {
+  background-color: lightGray;
+}
+.card {
+  width: 60vh;
+  height: 55vh;
+  margin: auto;
+  margin-top: 22.5vh;
+  color: lightGray;
+}
+
+.card-header {
+  text-align: center;
+  font-style: bold;
+}
+
+input {
+  background-color: lightGray;
+}
